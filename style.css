@@ -1,18 +1,13 @@
 #myCanvas  {
-
   background-size: cover;
-
-    margin-left: auto;
-
-    display: block;
-    width: 800px;
-m
-
-    }
+  margin-left: auto;
+  display: block;
+  width: 800px;
+}
 canvas {
     background-image: url("img/gamer.jpg");
     background-size: auto;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     margin: auto;
   }
 
@@ -21,7 +16,11 @@ h1  {
 }
 
 body {
-        background-image: url("img/black.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        height: 100%;
+   }
+
+   html {
+     height: 100%;
    }
